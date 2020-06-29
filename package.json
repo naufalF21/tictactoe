@@ -5,7 +5,8 @@
 	"main": "index.html",
 	"homepage": "https://naufalf21.github.io/tictactoe/",
 	"scripts": {
-		"deploy": "gh-pages -e '.'"
+		"help": "gh-pages --help",
+		"deploy": "gh-pages -a "
 	},
 	"author": "naufalfirman098@gmail.com",
 	"license": "ISC",
