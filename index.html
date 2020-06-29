@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>TicTacToe</title>
+
+		<!-- favicon -->
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="./assets/icon/favicon/apple-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="./assets/icon/favicon/apple-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="./assets/icon/favicon/apple-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="./assets/icon/favicon/apple-icon-76x76.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="./assets/icon/favicon/apple-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="./assets/icon/favicon/apple-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="./assets/icon/favicon/apple-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="./assets/icon/favicon/apple-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./assets/icon/favicon/apple-icon-180x180.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="./assets/icon/favicon/android-icon-192x192.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/icon/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="96x96"
+			href="./assets/icon/favicon/favicon-96x96.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./assets/icon/favicon/favicon-16x16.png"
+		/>
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+	</head>
+	<body>
+		<small>*This game is under development</small>
+		<div class="app">
+			<h1>Tic Tac Toe</h1>
+			<span>Can you beat AI?</span>
+			<hr />
+
+			<div>
+				<div>
+					<span>Player X:</span>
+					<select id="pX">
+						<option value="human">Human</option>
+						<option value="ai">AI</option>
+					</select>
+				</div>
+				<span><b>VS</b></span>
+				<div>
+					<span>Player O:</span>
+					<select id="pO">
+						<option value="ai">AI</option>
+						<option value="human">Human</option>
+					</select>
+				</div>
+				<div style="margin-top: 1rem">
+					<button id="btn">Start Game</button>
+					<span id="state"></span>
+				</div>
+				<span id="game-state"></span>
+			</div>
+		</div>
+
+		<table id="board">
+			<tbody>
+				<tr>
+					<td><button id="box0"></button></td>
+					<td><button id="box1"></button></td>
+					<td><button id="box2"></button></td>
+				</tr>
+				<tr>
+					<td><button id="box3"></button></td>
+					<td><button id="box4"></button></td>
+					<td><button id="box5"></button></td>
+				</tr>
+				<tr>
+					<td><button id="box6"></button></td>
+					<td><button id="box7"></button></td>
+					<td><button id="box8"></button></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- jQuery -->
+		<script src="./assets/js/jquery.min.js"></script>
+
+		<!-- script -->
+		<script src="./assets/js/board.js"></script>
+		<script src="./assets/js/ai.js"></script>
+		<script src="./assets/js/game.js"></script>
+	</body>
+</html>
