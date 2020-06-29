@@ -3,10 +3,9 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.html",
-	"homepage": "https://naufalf21.github.io/tictactoe/",
+	"homepage": "https://naufalf21.github.io/tictactoe/index.html",
 	"scripts": {
-		"help": "gh-pages --help",
-		"deploy": "gh-pages -a "
+		"help": "gh-pages --help"
 	},
 	"author": "naufalfirman098@gmail.com",
 	"license": "ISC",
